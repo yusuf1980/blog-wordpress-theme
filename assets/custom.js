@@ -1,0 +1,3 @@
+	const togglemenu=document.getElementById("toggle-menu"),sidebarmenu=document.getElementById("left-sidebar-menu"),menuBackdrop=document.getElementById("menuBackdrop");document.onclick=function(e){"left-sidebar-menu"!==e.target.id&&"toggle-menu"!==e.target.id&&(sidebarmenu.classList.remove("open"),menuBackdrop.style.display="none")},togglemenu.onclick=function(){sidebarmenu.classList.toggle("open"),menuBackdrop.style.display="block"};
+
+	// hljs.highlightAll();
